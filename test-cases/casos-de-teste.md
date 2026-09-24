@@ -34,14 +34,13 @@ Usuário previamente cadastrado no sistema.
 O sistema deve autenticar o usuário e direcioná-lo para a área correspondente após o login.
 
 **Resultado obtido:**
-A preencher durante a execução do teste.
+O sistema autenticou o usuário com sucesso e permitiu o acesso à área interna da aplicação.
 
 **Status:**
-A executar.
+Aprovado
 
 **Evidência:**
-A preencher após a execução.
-
+Captura de tela da área interna após o login.
 ---
 
 ### CT-002 — Login com senha inválida
@@ -68,47 +67,47 @@ Usuário previamente cadastrado no sistema.
 O sistema não deve autenticar o usuário e deve apresentar uma mensagem informando que as credenciais são inválidas.
 
 **Resultado obtido:**
-A preencher durante a execução do teste.
+O sistema impediu o login e apresentou uma mensagem informando que o usuário e a senha não correspondem.
 
 **Status:**
-A executar.
+Aprovado
 
 **Evidência:**
-A preencher após a execução.
+Captura de tela da mensagem de erro apresentada após a tentativa de login.
 
 ---
 
-### CT-003 — Login com e-mail inválido
+### CT-003 — Login com usuário inválido
 
 **Objetivo:**
-Validar o comportamento do sistema quando o usuário informa um e-mail inválido.
+Validar o comportamento do sistema quando o usuário informa um usuário inválido.
 
 **Pré-condição:**
 Acessar a página de login.
 
 **Dados de teste:**
 
-* E-mail: formato inválido
+* Usuário: usuário inexistente
 * Senha: senha válida
 
 **Passos:**
 
 1. Acessar a página de login.
-2. Informar um e-mail em formato inválido.
+2. Informar um usuário inexistente.
 3. Informar uma senha válida.
-4. Clicar no botão "Entrar".
+4. Clicar no botão "Login".
 
 **Resultado esperado:**
-O sistema deve impedir o login e apresentar uma mensagem de validação para o e-mail informado.
+O sistema deve impedir o login e apresentar uma mensagem informando que as credenciais não correspondem.
 
 **Resultado obtido:**
-A preencher durante a execução do teste.
+O sistema impediu o login e apresentou uma mensagem informando que o usuário e a senha não correspondem.
 
 **Status:**
-A executar.
+Aprovado
 
 **Evidência:**
-A preencher após a execução.
+Captura de tela da mensagem de erro apresentada após a tentativa de login.
 
 ---
 
@@ -136,20 +135,20 @@ Acessar a página de login.
 O sistema deve impedir o login e informar que os campos obrigatórios precisam ser preenchidos.
 
 **Resultado obtido:**
-A preencher durante a execução do teste.
+O sistema impediu o login e apresentou a mensagem "Epic sadface: Username is required".
 
 **Status:**
-A executar.
+Aprovado
 
 **Evidência:**
-A preencher após a execução.
+Captura de tela da mensagem de validação apresentada após a tentativa de login.
 
 ---
 
 ### CT-005 — Login após logout
 
 **Objetivo:**
-Validar se o usuário consegue realizar um novo login após efetuar logout.
+Validar se o usuário consegue realizar um novo login após efetuar o logout.
 
 **Pré-condição:**
 Usuário cadastrado e autenticado no sistema.
@@ -172,11 +171,11 @@ Usuário cadastrado e autenticado no sistema.
 O sistema deve permitir que o usuário realize um novo login normalmente após o logout.
 
 **Resultado obtido:**
-A preencher durante a execução do teste.
+O sistema permitiu que o usuário realizasse um novo login normalmente após efetuar logout.
 
 **Status:**
-A executar.
+Aprovado
 
 **Evidência:**
-A preencher após a execução.
+Captura de tela da área interna após o novo login.
 
