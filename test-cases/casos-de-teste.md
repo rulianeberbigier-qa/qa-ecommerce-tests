@@ -339,3 +339,45 @@ Aprovado
 
 `evidences/CT-008-remover-produto-carrinho.jpeg`
 
+---
+
+### CT-009 — Adicionar dois produtos ao carrinho
+
+**Objetivo:**
+
+Verificar se o sistema permite adicionar dois produtos diferentes ao carrinho e se a quantidade de itens é atualizada corretamente.
+
+**Pré-condição:**
+
+Usuário autenticado no SauceDemo com credenciais válidas.
+
+**Dados de teste:**
+- Usuário: `standard_user`
+- Senha: `secret_sauce`
+- Produto 1: `Sauce Labs Backpack`
+- Produto 2: `Sauce Labs Bike Light`
+
+**Passos:**
+1. Acessar https://www.saucedemo.com/.
+2. Informar usuário e senha válidos.
+3. Clicar em "Login".
+4. Localizar o produto "Sauce Labs Backpack" e clicar em "Add to cart".
+5. Localizar o produto "Sauce Labs Bike Light" e clicar em "Add to cart".
+6. Verificar se os dois botões mudaram para "Remove".
+7. Verificar se o ícone do carrinho exibe a quantidade 2.
+
+**Resultado esperado:**
+
+Os dois produtos devem ser adicionados ao carrinho, os botões devem mudar para "Remove" e o ícone do carrinho deve indicar 2 itens.
+
+**Resultado obtido:**
+
+Os dois produtos foram adicionados corretamente. Os botões mudaram para "Remove" e o ícone do carrinho exibiu 2 itens.
+
+**Status:**
+
+Aprovado
+
+**Evidência:**
+
+`evidences/CT-009-adicionar-dois-produtos-carrinho.jpeg`
