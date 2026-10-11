@@ -296,3 +296,46 @@ Aprovado
 
 `evidences/CT-007-adicionar-produto-carrinho.jpeg`
 
+---
+
+### CT-008 — Remover produto do carrinho
+
+**Objetivo:**
+
+Verificar se o usuário consegue remover um produto do carrinho de compras.
+
+**Pré-condição:**
+
+Usuário autenticado no SauceDemo com credenciais válidas e produto adicionado ao carrinho.
+
+**Dados de teste:**
+- Usuário: `standard_user`
+- Senha: `secret_sauce`
+- Produto: `Sauce Labs Backpack`
+
+**Passos:**
+1. Acessar https://www.saucedemo.com/.
+2. Informar usuário e senha válidos.
+3. Clicar em "Login".
+4. Adicionar o produto "Sauce Labs Backpack" ao carrinho.
+5. Clicar no ícone do carrinho.
+6. Verificar se o produto aparece na lista.
+7. Clicar em "Remove".
+8. Verificar se o produto desapareceu da lista e se o carrinho ficou vazio.
+
+**Resultado esperado:**
+
+O produto deve ser removido do carrinho e não deve mais aparecer na lista de itens.
+
+**Resultado obtido:**
+
+O produto foi removido corretamente. Ele desapareceu da lista e o carrinho ficou vazio.
+
+**Status:**
+
+Aprovado
+
+**Evidência:**
+
+`evidences/CT-008-remover-produto-carrinho.jpeg`
+
