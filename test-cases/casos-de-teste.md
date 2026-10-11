@@ -252,3 +252,47 @@ Aprovado
 **Evidência:**
 `evidences/CT-006-visualizacao-produtos.jpeg`
 
+---
+
+## 4. Casos de Teste — Carrinho
+
+### CT-007 — Adicionar produto ao carrinho
+
+**Objetivo:**
+
+Verificar se é possível adicionar um produto ao carrinho e se a interface é atualizada corretamente.
+
+**Pré-condição:**
+
+Usuário autenticado no SauceDemo com credenciais válidas.
+
+**Dados de teste:**
+- Usuário: `standard_user`
+- Senha: `secret_sauce`
+- Produto: `Sauce Labs Backpack`
+
+**Passos:**
+1. Acessar https://www.saucedemo.com/.
+2. Informar usuário e senha válidos.
+3. Clicar em "Login".
+4. Localizar o produto "Sauce Labs Backpack".
+5. Clicar em "Add to cart".
+6. Verificar se o botão muda para "Remove".
+7. Verificar se o ícone do carrinho exibe a quantidade 1.
+
+**Resultado esperado:**
+
+O produto deve ser adicionado ao carrinho, o botão deve mudar para "Remove" e o ícone do carrinho deve indicar 1 item.
+
+**Resultado obtido:**
+
+O produto Sauce Labs Backpack foi adicionado corretamente. O botão mudou para "Remove" e o ícone do carrinho exibiu 1.
+
+**Status:**
+
+Aprovado
+
+**Evidência:**
+
+`evidences/CT-007-adicionar-produto-carrinho.jpeg`
+
