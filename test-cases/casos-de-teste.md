@@ -179,3 +179,76 @@ Aprovado
 **Evidência:**
 Captura de tela da área interna após o novo login.
 
+
+---
+
+## 3. Casos de Teste — Produtos
+
+### CT-006 — Visualização de produtos
+
+**Objetivo:**
+Verificar se os produtos são exibidos corretamente na página inicial do e-commerce.
+
+**Pré-condição:**
+Usuário autenticado no sistema com credenciais válidas.
+
+**Dados de teste:**
+- Usuário: `standard_user`
+- Senha: `secret_sauce`
+
+**Passos:**
+1. Acessar o site https://www.saucedemo.com/.
+2. Informar usuário e senha válidos.
+3. Clicar no botão "Login".
+4. Verificar se a lista de produtos é exibida.
+5. Conferir nomes, imagens, preços e botões "Add to cart".
+6. Rolar a página para visualizar os demais produtos.
+
+**Resultado esperado:**
+A página deve exibir os produtos com nomes, imagens, preços e botões "Add to cart" corretamente.
+
+**Resultado obtido:**
+A página abriu corretamente e os produtos foram exibidos com nomes, imagens, preços e botões "Add to cart". Não foram identificados problemas na verificação realizada.
+
+**Status:**
+Aprovado
+
+**Evidência:**
+Captura de tela da área interna após o novo login.
+
+
+
+## 3. Casos de Teste — Produtos
+
+
+
+**Objetivo:**
+Verificar se os produtos são exibidos corretamente na página inicial do e-commerce.
+
+**Pré-condição:**
+Usuário autenticado no sistema com credenciais válidas.
+
+**Dados de teste:**
+- Usuário: `standard_user`
+- Senha: `secret_sauce`
+
+**Passos:**
+1. Acessar o site https://www.saucedemo.com/.
+2. Informar usuário e senha válidos.
+3. Clicar no botão "Login".
+4. Verificar se a lista de produtos é exibida.
+5. Conferir nomes, imagens, preços e botões "Add to cart".
+6. Rolar a página para visualizar os demais produtos.
+
+**Resultado esperado:**
+A página deve exibir os produtos com nomes, imagens, preços e botões "Add to cart" corretamente.
+
+**Resultado obtido:**
+A página abriu corretamente e os produtos foram exibidos com nomes, imagens, preços e botões "Add to cart". Não foram identificados problemas na verificação realizada.
+
+**Status:**
+Aprovado
+
+**Evidência:**
+`evidences/CT-006-visualizacao-produtos.jpeg`
+
